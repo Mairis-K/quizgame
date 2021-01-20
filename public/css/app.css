@@ -1,5 +1,4 @@
 * {
-    font-family: 'Poppins', sans-serif;
     margin: 0;
     letter-spacing: 2px;
 }
@@ -13,9 +12,9 @@
 
 .container-quiz {
     display: flex;
-    width: 40%;
+    width: 50%;
     height: 85%;
-    background-color: white;
+    background-color:rgb(247, 247, 247);
     text-align: center;
     flex-flow: column;
     border: 1px solid #e7eae0;
@@ -31,10 +30,10 @@
     display: flex;
     width: 100%;
     height: 20%;
-    border-bottom: 1px solid #e7eae0;
+    border-bottom: 1px solid #f1ececd5;
     justify-content: center;
     align-items: center;
-    background-color: #e7eae0;
+    background-color: #ffffffd7;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -126,19 +125,19 @@ li>div {
     margin: auto;
     margin-bottom: 10px;
     letter-spacing: 2px;
-    background-color: #a09f9ff5;
+    background-color: #332e2ef5;
 }
 
 li.correct {
-    border: 1px solid rgb(74, 219, 74);
-    background-color: rgb(74, 219, 74);
+    border: 1px solid rgb(255, 238, 90);
+    background-color: rgb(243, 232, 79);
     color: white;
     font-weight: 600;
 }
 
 li.incorrect {
-    border: 1px solid rgb(240, 117, 100);
-    background-color: rgb(240, 117, 100);
+    border: 1px solid rgb(247, 39, 11);
+    background-color: rgb(238, 42, 16);
     color: white;
     font-weight: 600;
 }
